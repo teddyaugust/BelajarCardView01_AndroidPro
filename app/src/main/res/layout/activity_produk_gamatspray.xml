@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProdukGamatspray">
+
+    <ImageView
+        android:id="@+id/gamatspray"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/produk_gamatspray"/>
+
+    <TextView
+        android:id="@+id/title_gamatspray"
+        android:layout_below="@+id/gamatspray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gamatspray"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_below="@id/title_gamatspray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adalah produk serbaguna untuk pemakaian luar (pada kulit) untuk menghilangkan rasa nyeri, mengatasi infeksi, gatal atau sebagai antiseptik pada bagian luka."
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
